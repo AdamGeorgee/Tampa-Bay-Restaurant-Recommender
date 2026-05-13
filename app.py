@@ -10,7 +10,6 @@ def make_link(name, address, city):
 
 st.title("Tampa Bay Restaurant Recommender")
 st.write("")
-st.write("")
 
 col1, col2, col3 = st.columns([3, 2, 1])
 
