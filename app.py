@@ -8,7 +8,7 @@ def make_link(name, address, city):
     encoded_query = urllib.parse.quote(query)
     return f"https://www.google.com/maps/search/?api=1&query={encoded_query}"
 
-st.title("Tampa Bay Restaurant Finder")
+st.title("Tampa Bay Restaurant Recommender")
 st.write("")
 
 col1, col2, col3 = st.columns([3, 2, 1])
