@@ -16,7 +16,7 @@ https://tampa-bay-restaurant-recommender.streamlit.app
 - Clickable restaurant links that open Google Maps directions
 
 ## How It Works
-- Yelp dataset filtered to restaurants in the Tampa Bay area
+- Yelp dataset is filtered to restaurants in the Tampa Bay area
 - Each restaurant is represented as a text profile using categories and attributes
 - TF-IDF vectorization is applied to convert text into numerical vectors
 - Cosine similarity is computed to measure either:
