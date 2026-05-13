@@ -5,20 +5,14 @@ The web application helps users discover restaurants in the Tampa Bay area based
 - a restaurant name (find similar places)
 - a cuisine or search query (e.g., "Italian food", "BBQ", "tacos")
 
----
-
 ## Live Demo
 https://tampa-bay-restaurant-recommender.streamlit.app
-
----
 
 ## Features
 - Search by restaurant name or cuisine
 - Filter by Tampa Bay cities using a dropdown
 - Displays restaurant name, address, city, and rating
 - Clickable restaurant links that open Google Maps directions
-
----
 
 ## How It Works
 - Yelp dataset filtered to restaurants in the Tampa Bay area
@@ -29,8 +23,6 @@ https://tampa-bay-restaurant-recommender.streamlit.app
   * query-to-restaurant similarity
 - The system returns the highest scoring restaurants as recommendations
 
----
-
 ## Tech Stack
 - Python
 - Streamlit (frontend UI)
@@ -38,8 +30,6 @@ https://tampa-bay-restaurant-recommender.streamlit.app
 - Scikit-learn (TF-IDF + cosine similarity)
 - RapidFuzz (fuzzy matching)
 - NumPy
-
----
 
 ## Setup & Installation
 ### 1. Clone repo
